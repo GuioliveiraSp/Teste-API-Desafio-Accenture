@@ -21,8 +21,7 @@ Siga estes passos para importar e executar a coleção no Postman:
    - Clique em "Import"
 
 3. **Execute os endpoints em ordem**:
-   ```mermaid
-   graph TD
+
      A[1. Criar Usuário] --> B[2. Gerar Token]
      B --> C[3. Verificar Autorização]
      C --> D[4. Listar Livros]
